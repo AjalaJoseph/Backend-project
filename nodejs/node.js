@@ -8,8 +8,4 @@ http.createServer((req, res) =>{
     res.write(data);
     res.end();
   })
-  // res.writeHead(200, {'Content-Type': 'text/html'});
-  // res.write(dt.greating('Ajala Joseph', 20, 'backend Engineer'))
-  // res.write(String(dt.calculate(1, '+', 2)))
-  // res.end();
 }).listen(8080);
