@@ -9,12 +9,3 @@ fs.appendFile("todo.txt",arrayData + '\n' , (error) =>{
          throw error
     }})
     console.log("data append")
-// todo.map((item) =>{
-// fs.appendFile("todo.txt",String(item) , (error) =>{
-//     if(error){
-//          throw error
-//     }
-  
-// })
-//  console.log("data append")
-// })
